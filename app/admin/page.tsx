@@ -577,6 +577,13 @@ export default function AdminPage() {
                             Courses
 
                         </Link>
+                        <Link
+                            href="/admin/students"
+                            className="inline-flex items-center gap-2 rounded-xl border border-cyan-400/20 bg-cyan-400/10 px-5 py-3 text-sm font-bold text-cyan-300 transition hover:bg-cyan-400/20"
+                        >
+                            <Users className="h-4 w-4" />
+                            Students
+                        </Link>
 
 
                         {/* ---------------------------------------------
